@@ -1,0 +1,554 @@
+.error-page .alert-primary .container {
+    flex-direction: row
+}
+
+.error-page .custom-alerts {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.error-page .custom-alerts .clientAlert {
+    width: 100%
+}
+
+@media (min-width:480px) {
+    .error-page .custom-alerts {
+        max-width: 540px
+    }
+}
+
+@media (max-width:767.98px) {
+    .error-page .custom-alerts {
+        padding-left: var(--layout-container-gutter);
+        padding-right: var(--layout-container-gutter)
+    }
+}
+
+@media (min-width:768px) {
+    .error-page .custom-alerts {
+        width: 100%;
+        max-width: calc(var(--layout-container-gutter) + var(--container-xl-max-width));
+        padding-left: var(--layout-container-gutter);
+        padding-right: var(--layout-container-gutter)
+    }
+}
+
+.alert.alert-primary .alert-body b,
+.alert.alert-primary .alert-body span[style^="font-weight: 700"],
+.alert.alert-primary .alert-body strong,
+.alert.alert-primary .modal-body b,
+.alert.alert-primary .modal-body span[style^="font-weight: 700"],
+.alert.alert-primary .modal-body strong,
+.clientAlertModal .alert-body b,
+.clientAlertModal .alert-body span[style^="font-weight: 700"],
+.clientAlertModal .alert-body strong,
+.clientAlertModal .modal-body b,
+.clientAlertModal .modal-body span[style^="font-weight: 700"],
+.clientAlertModal .modal-body strong {
+    color: var(--gray-darker)
+}
+
+.alert.alert-primary.modal-success .alert-icon:before,
+.clientAlertModal.modal-success .alert-icon:before {
+    color: var(--brandd-success)
+}
+
+.alert.alert-primary.modal-info .alert-icon:before,
+.clientAlertModal.modal-info .alert-icon:before {
+    color: var(--brand-primary)
+}
+
+.alert.alert-primary.modal-danger .alert-icon:before,
+.clientAlertModal.modal-danger .alert-icon:before {
+    color: var(--brand-danger)
+}
+
+.alert.alert-primary.modal-warning .alert-icon:before,
+.clientAlertModal.modal-warning .alert-icon:before {
+    color: var(--brand-warning)
+}
+
+.alert.alert-primary.modal-default .alert-icon:before,
+.clientAlertModal.modal-default .alert-icon:before {
+    color: var(--gray-icons)
+}
+
+.alert.alert-primary .modal-header.modal-header-no-icon .modal-title .alert-icon,
+.clientAlertModal .modal-header.modal-header-no-icon .modal-title .alert-icon {
+    display: none
+}
+
+.alert.alert-primary .modal-content .close.close-oncontent,
+.clientAlertModal .modal-content .close.close-oncontent {
+    padding: var(--modal-btn-close-padding);
+    z-index: 1;
+    right: 28px;
+    top: 16px
+}
+
+.alert.alert-primary .modal-content .close.close-oncontent>span,
+.clientAlertModal .modal-content .close.close-oncontent>span {
+    padding-bottom: 4px
+}
+
+.alert.alert-primary .modal-content .close.close-oncontent i,
+.clientAlertModal .modal-content .close.close-oncontent i {
+    font-size: 14px !important
+}
+
+.alert.alert-primary .modal-title,
+.clientAlertModal .modal-title {
+    padding-right: var(--spacing-4x)
+}
+
+.alert.alert-primary .modal-title.modal-title-icon-replaced:before,
+.clientAlertModal .modal-title.modal-title-icon-replaced:before {
+    display: none
+}
+
+.alert.alert-primary .modal-title.modal-title-icon-replaced .alert-icon,
+.clientAlertModal .modal-title.modal-title-icon-replaced .alert-icon {
+    margin-right: var(--spacing-2x)
+}
+
+.alert.alert-primary .btn.btn-link,
+.alert.alert-primary .btn.btn-link:hover,
+.clientAlertModal .btn.btn-link,
+.clientAlertModal .btn.btn-link:hover {
+    background: transparent;
+    border-color: transparent
+}
+
+.alert.alert-primary .btn.btn-link.btn-secondary,
+.clientAlertModal .btn.btn-link.btn-secondary {
+    color: var(--btn-primary-faded-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-secondary:hover,
+.clientAlertModal .btn.btn-link.btn-secondary:hover {
+    color: var(--btn-primary-faded-hover-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-default,
+.clientAlertModal .btn.btn-link.btn-default {
+    color: var(--btn-default-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-default:hover,
+.clientAlertModal .btn.btn-link.btn-default:hover {
+    color: var(--btn-default-hover-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-info,
+.clientAlertModal .btn.btn-link.btn-info {
+    color: var(--btn-info-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-info:hover,
+.clientAlertModal .btn.btn-link.btn-info:hover {
+    color: var(--btn-info-hover-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-success,
+.clientAlertModal .btn.btn-link.btn-success {
+    color: var(--btn-success-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-success:hover,
+.clientAlertModal .btn.btn-link.btn-success:hover {
+    color: var(--btn-success-hover-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-danger,
+.clientAlertModal .btn.btn-link.btn-danger {
+    color: var(--btn-danger-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-danger:hover,
+.clientAlertModal .btn.btn-link.btn-danger:hover {
+    color: var(--btn-danger-hover-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-warning,
+.clientAlertModal .btn.btn-link.btn-warning {
+    color: var(--btn-warning-color)
+}
+
+.alert.alert-primary .btn.btn-link.btn-warning:hover,
+.clientAlertModal .btn.btn-link.btn-warning:hover {
+    color: var(--btn-warning-hover-color)
+}
+
+.alert.alert-primary .modal-footer,
+.clientAlertModal .modal-footer {
+    flex-wrap: wrap-reverse
+}
+
+.alert.alert-primary .modal-footer .alert-buttons,
+.clientAlertModal .modal-footer .alert-buttons {
+    padding-left: 0
+}
+
+.alert.alert-primary .modal-footer .alert-buttons>.btn:not(:last-of-type),
+.clientAlertModal .modal-footer .alert-buttons>.btn:not(:last-of-type) {
+    margin-right: var(--modal-footer-margin-between);
+    margin-left: 0
+}
+
+.alert.alert-primary .modal-footer.footer-has-checkbox.justify-content-center,
+.clientAlertModal .modal-footer.footer-has-checkbox.justify-content-center {
+    flex-direction: column
+}
+
+.alert.alert-primary .modal-footer.footer-has-checkbox.justify-content-center .checkbox,
+.clientAlertModal .modal-footer.footer-has-checkbox.justify-content-center .checkbox {
+    margin: var(--spacing-3x) auto 0 auto !important
+}
+
+.alert.alert-primary .modal-footer.footer-has-checkbox.justify-content-end,
+.clientAlertModal .modal-footer.footer-has-checkbox.justify-content-end {
+    flex-direction: row-reverse
+}
+
+.alert.alert-primary .modal-footer.footer-has-checkbox.justify-content-end .checkbox,
+.clientAlertModal .modal-footer.footer-has-checkbox.justify-content-end .checkbox {
+    margin-left: 0 !important;
+    margin-right: auto !important
+}
+
+.alert-primary {
+    background: var(--ui-block-bg)
+}
+
+.alert-primary .alert-body p {
+    color: var(--text-body-color) !important
+}
+
+@media (max-width:767.98px) {
+    .alert-primary .alert-body {
+        align-self: auto
+    }
+}
+
+.app-main>.main-body>.container-fluid .custom-alerts .clientAlert>.container,
+.app-main>.main-body>.container .custom-alerts .clientAlert>.container {
+    display: flex;
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.app-main>.main-body>.container-fluid .custom-alerts .alert:not(:last-child),
+.app-main>.main-body>.container .custom-alerts .alert:not(:last-child) {
+    margin-bottom: 0
+}
+
+.app-main>.main-body>.container-fluid .custom-alerts .alert+.alert:not(:first-child),
+.app-main>.main-body>.container .custom-alerts .alert+.alert:not(:first-child) {
+    margin-top: var(--spacing-2x)
+}
+
+.login-body>.custom-alerts .clientAlert>.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.login:not(.login-lg) .custom-alerts .clientAlert>.container .alert-content {
+    flex-direction: column;
+    align-self: flex-start
+}
+
+.login:not(.login-lg) .custom-alerts .clientAlert>.container .alert-content .alert-body {
+    align-self: flex-start
+}
+
+.login:not(.login-lg) .custom-alerts .clientAlert>.container .alert-content .alert-actions {
+    width: 100%;
+    padding: var(--spacing-1x) 0 0 0
+}
+
+.login:not(.login-lg) .custom-alerts .clientAlert>.container .alert-content .alert-actions .btn {
+    margin-top: var(--spacing-1x)
+}
+
+.app-main>.custom-alerts .alert-primary {
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid var(--ui-block-divider-color)
+}
+
+.app-main>.custom-alerts .alert-primary>.container {
+    display: flex
+}
+
+.app-main>.custom-alerts .alert-primary.alert-dismissible {
+    padding-right: 0 !important
+}
+
+@media (max-width:767.98px) {
+    .app-main>.custom-alerts .alert-primary.alert-dismissible .alert-content {
+        padding-right: var(--layout-container-gutter)
+    }
+}
+
+.app-main>.custom-alerts .alert-primary:before {
+    display: none
+}
+
+.app-main>.email-verification {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.clientAlertModal.prevent-close.modal-static .modal-dialog {
+    transform: none
+}
+
+.clientAlertModal .modal-content {
+    overflow: hidden
+}
+
+.clientAlertModal .modal-graphic {
+    display: flex;
+    justify-content: center
+}
+
+.clientAlertModal .modal-graphic .alert-custom-graphic-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto
+}
+
+.clientAlertModal .modal-graphic .alert-custom-graphic-container img,
+.clientAlertModal .modal-graphic .alert-custom-graphic-container svg {
+    max-width: 100%;
+    height: auto
+}
+
+.clientAlertModal .modal-graphic .alert-predefined-icon-container,
+.clientAlertModal .modal-graphic .alert-predefined-illustration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-self: center;
+    max-width: 100%
+}
+
+.clientAlertModal .modal-graphic .alert-predefined-icon-container:not(.promo-illustration),
+.clientAlertModal .modal-graphic .alert-predefined-illustration-container:not(.promo-illustration) {
+    margin-top: var(--spacing-3x)
+}
+
+.clientAlertModal .modal-graphic .alert-predefined-icon-container .promo-illustration,
+.clientAlertModal .modal-graphic .alert-predefined-illustration-container .promo-illustration {
+    max-width: 340px;
+    min-width: 340px;
+    width: 340px;
+    height: 300px
+}
+
+.clientAlertModal .modal-graphic .alert-predefined-icon-container .promo-slider-icon,
+.clientAlertModal .modal-graphic .alert-predefined-illustration-container .promo-slider-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0
+}
+
+.clientAlertModal .modal-graphic .alert-predefined-icon-container {
+    margin-top: var(--spacing-5x)
+}
+
+.clientAlertModal .modal-graphic.justify-content-center .alert-predefined-icon-container,
+.clientAlertModal .modal-graphic.justify-content-start .alert-predefined-icon-container {
+    padding: 0 var(--spacing-3x)
+}
+
+.clientAlertModal .modal-graphic.justify-content-end .alert-predefined-icon-container {
+    padding: 0 var(--spacing-8x) 0 var(--spacing-3x)
+}
+
+.clientAlertModal .modal-graphic .modal-predefined-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.clientAlertModal .modal-body {
+    word-break: break-word
+}
+
+.clientAlertModal .modal-body>p:last-of-type {
+    margin-bottom: 0
+}
+
+.clientAlertModal.modal .modal-graphic {
+    position: relative
+}
+
+.clientAlertModal.modal .modal-graphic .modal-predefined-background>svg {
+    position: absolute;
+    right: -375px;
+    top: 0;
+    bottom: 0;
+    height: 279px
+}
+
+.clientAlertModal.modal .modal-graphic .alert-predefined-illustration-container.promo-illustration {
+    min-width: 272px;
+    max-width: 272px;
+    height: 240px
+}
+
+.clientAlertModal.modal .modal-graphic .alert-predefined-illustration-container.promo-illustration>svg {
+    width: 272px
+}
+
+.clientAlertModal.modal-lg .modal-graphic .modal-predefined-background>svg {
+    position: absolute;
+    right: -478px;
+    top: 0;
+    bottom: 0;
+    height: 355px
+}
+
+.clientAlertModal.modal-lg .modal-graphic .alert-predefined-illustration-container.promo-illustration {
+    min-width: 340px;
+    max-width: 340px;
+    height: 300px
+}
+
+.clientAlertModal.modal-lg .modal-graphic .alert-predefined-illustration-container.promo-illustration>svg {
+    width: 340px
+}
+
+.clientAlertModal.modal-sm .modal-graphic .modal-predefined-background>svg {
+    position: absolute;
+    right: -260px;
+    top: 0;
+    bottom: 0;
+    height: 192px
+}
+
+.clientAlertModal.modal-sm .modal-graphic .alert-predefined-illustration-container.promo-illustration {
+    min-width: 180px;
+    max-width: 180px;
+    height: 159px
+}
+
+.clientAlertModal.modal-sm .modal-graphic .alert-predefined-illustration-container.promo-illustration>svg {
+    width: 180px
+}
+
+.clientAlertModal.modal-custom-icon .modal-graphic .alert-custom-graphic-container {
+    margin-top: var(--spacing-3x);
+    padding: 0 var(--spacing-3x) 0 var(--spacing-3x)
+}
+
+.clientAlertModal.modal-custom-icon .modal-graphic.justify-content-end .alert-custom-graphic-container {
+    padding: 0 var(--spacing-8x) 0 var(--spacing-3x)
+}
+
+@media (max-width:991.98px) {
+    .modal-open .modal.clientAlertModal {
+        display: block !important;
+        overflow-y: auto
+    }
+    .modal-open .modal.clientAlertModal .modal-body {
+        overflow-y: hidden;
+        max-height: unset
+    }
+}
+
+.clientAlert .alert-custom-image-container,
+.clientAlert .alert-predefined-icon-container,
+.clientAlert .alert-predefined-illustration-container {
+    display: flex;
+    position: relative;
+    max-width: 160px;
+    margin: 0 var(--spacing-2x) 0 0;
+    align-self: baseline
+}
+
+.clientAlert .alert-custom-image-container img,
+.clientAlert .alert-custom-image-container svg,
+.clientAlert .alert-predefined-icon-container img,
+.clientAlert .alert-predefined-icon-container svg,
+.clientAlert .alert-predefined-illustration-container img,
+.clientAlert .alert-predefined-illustration-container svg {
+    max-width: 100%
+}
+
+.clientAlert .alert-custom-image-container.promo-illustration,
+.clientAlert .alert-predefined-icon-container.promo-illustration,
+.clientAlert .alert-predefined-illustration-container.promo-illustration {
+    min-width: 160px;
+    height: 140px
+}
+
+.clientAlert .alert-custom-image-container.promo-illustration .promo-slider-icon,
+.clientAlert .alert-predefined-icon-container.promo-illustration .promo-slider-icon,
+.clientAlert .alert-predefined-illustration-container.promo-illustration .promo-slider-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 160px;
+    height: 140px
+}
+
+.clientAlert .alert-predefined-icon-container,
+.clientAlert .alert-predefined-icon-container>svg,
+.clientAlert .alert-predefined-illustration-container,
+.clientAlert .alert-predefined-illustration-container>svg {
+    height: auto
+}
+
+.clientAlert .alert-body .alert-actions {
+    margin-top: calc(-1*var(--spacing-2x));
+    margin-bottom: var(--spacing-1x)
+}
+
+.clientAlert.alert-icon-v-center .alert-custom-image-container,
+.clientAlert.alert-icon-v-center .alert-predefined-icon-container,
+.clientAlert.alert-icon-v-center .alert-predefined-illustration-container {
+    align-self: center
+}
+
+[dir=rtl] .clientAlert .alert-custom-image-container,
+[dir=rtl] .clientAlert .alert-predefined-icon-container,
+[dir=rtl] .clientAlert .alert-predefined-illustration-container {
+    margin: 0 0 0 var(--spacing-2x)
+}
+
+[dir=rtl] .clientAlertModal .modal-title.modal-title-icon-replaced .alert-icon {
+    margin-left: var(--spacing-2x);
+    margin-right: 0
+}
+
+[dir=rtl] .clientAlertModal .modal-footer.justify-content-end {
+    flex-direction: row;
+    justify-content: flex-start !important
+}
+
+[dir=rtl] .clientAlertModal .modal-footer.justify-content-start {
+    flex-direction: row-reverse;
+    justify-content: flex-end !important
+}
+
+[dir=rtl] .clientAlertModal .modal-graphic.justify-content-end {
+    justify-content: flex-start !important
+}
+
+[dir=rtl] .clientAlertModal .modal-graphic.justify-content-start {
+    justify-content: flex-end !important
+}
